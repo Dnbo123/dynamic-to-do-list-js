@@ -7,7 +7,7 @@ const taskList = document.getElementById('task-list');
           //creating Add-task function
 function  addTask() {
     //retrieving & trimming
-    var taskText = taskInput.ariaValueMax.trim();
+    const taskText = taskInput.value.trim();
 
     //checking if task is empty
         if (!taskText) {
